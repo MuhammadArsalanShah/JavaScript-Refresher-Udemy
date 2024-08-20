@@ -200,51 +200,78 @@ import * as ourUtils from "./utils.js"
 
 
 
-// const userNameData = ['Arsalan', 'Shah'];
-const [fName, lName] = ['Arsalan', 'Shah'];
+// // const userNameData = ['Arsalan', 'Shah'];
+// const [fName, lName] = ['Arsalan', 'Shah'];
 
 
-// const fName = userNameData[0];
-// const lName = userNameData[1];
+// // const fName = userNameData[0];
+// // const lName = userNameData[1];
 
-console.log(fName);
-console.log(lName);
+// console.log(fName);
+// console.log(lName);
 
-const user = {
-  firstName: 'Zahid',
-  lastName: 'Ahmed'
-}
+// const user = {
+//   firstName: 'Zahid',
+//   lastName: 'Ahmed'
+// }
 
-// const firstName = user.firstName;
-// const lastName = user.lastName;
+// // const firstName = user.firstName;
+// // const lastName = user.lastName;
+
+// // console.log(firstName);
+// // console.log(lastName);
+
+// const {firstName, lastName} = {
+//   firstName: 'Safi',
+//   lastName: 'Ullah'
+// }
 
 // console.log(firstName);
 // console.log(lastName);
 
-const {firstName, lastName} = {
-  firstName: 'Safi',
-  lastName: 'Ullah'
+// const order = {
+//   id: 'adfqer23op0adfj',
+//   currency: 'PKR',
+//   date: '20-08-2024'
+// }
+
+// function showOrder(/* order */ {id, currency, date}) {
+//   // console.log(`Order Id: ${order.id}`);
+//   // console.log(`Currency: ${order.currency}`);
+//   // console.log(`Order Date: ${order.date}`);
+
+//   console.log(`destructured Order Id: ${id}`);
+//   console.log(`destructured Currency: ${currency}`);
+//   console.log(`destructured Order Date: ${date}`);
+// }
+
+// showOrder(order);
+
+
+
+
+
+
+
+
+
+
+const myHobbies = ['Cooking', 'Gardening', 'Sports'];
+const myNewHobbies = ['Reading', 'Working'];
+
+const mergedHobbies = [...myHobbies, ...myNewHobbies];
+console.log(mergedHobbies);
+
+const myUser = {
+  name: 'Noman',
+  age: 22
 }
 
-console.log(firstName);
-console.log(lastName);
+console.log(myUser);
 
-const order = {
-  id: 'adfqer23op0adfj',
-  currency: 'PKR',
-  date: '20-08-2024'
+const extendedUser = {
+  isAdmin: true,
+  ...myUser
 }
 
-function showOrder(/* order */ {id, currency, date}) {
-  // console.log(`Order Id: ${order.id}`);
-  // console.log(`Currency: ${order.currency}`);
-  // console.log(`Order Date: ${order.date}`);
-
-  console.log(`destructured Order Id: ${id}`);
-  console.log(`destructured Currency: ${currency}`);
-  console.log(`destructured Order Date: ${date}`);
-}
-
-showOrder(order);
-
-
+console.log(extendedUser);
