@@ -256,22 +256,45 @@ import * as ourUtils from "./utils.js"
 
 
 
-const myHobbies = ['Cooking', 'Gardening', 'Sports'];
-const myNewHobbies = ['Reading', 'Working'];
+// const myHobbies = ['Cooking', 'Gardening', 'Sports'];
+// const myNewHobbies = ['Reading', 'Working'];
 
-const mergedHobbies = [...myHobbies, ...myNewHobbies];
-console.log(mergedHobbies);
+// const mergedHobbies = [...myHobbies, ...myNewHobbies];
+// console.log(mergedHobbies);
 
-const myUser = {
-  name: 'Noman',
-  age: 22
+// const myUser = {
+//   name: 'Noman',
+//   age: 22
+// }
+
+// console.log(myUser);
+
+// const extendedUser = {
+//   isAdmin: true,
+//   ...myUser
+// }
+
+// console.log(extendedUser);
+
+
+
+
+
+
+
+
+// const password = prompt('Enter Password');
+
+// if (password === 'Hello') {
+//   console.log(`The password ${password} works`);
+// } else if (password === 'hello') {
+//   console.log(`The password ${password} works`);
+// } else {
+//   console.log(`Access not granted.`);
+// }
+
+const hobbies = ['Sports', 'Cooking'];
+
+for (const hobby of hobbies) {
+  console.log(hobby);
 }
-
-console.log(myUser);
-
-const extendedUser = {
-  isAdmin: true,
-  ...myUser
-}
-
-console.log(extendedUser);
