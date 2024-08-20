@@ -1,7 +1,7 @@
 // // import { apiKey, xyz as content } from "./utils.js";
 // // import defApiKey from "./utils.js";
 
-// import * as ourUtils from "./utils.js"
+import * as ourUtils from "./utils.js"
 
 // // console.log('apikey:',apiKey);
 // // console.log('xyz:',xyz);
@@ -88,11 +88,20 @@
 
 
 
-function combine(v1, v2, v3) {
-  const ans = (v1 * v2) / v3;
-  return ans;
-}
 
-const result = combine(20, 60, 100);
-console.log(`The result is: ${result}`);
+// function combine(v1, v2, v3) {
+//   const ans = (v1 * v2) / v3;
+//   return ans;
+// }
 
+// const result = combine(20, 60, 100);
+// console.log(`The result is: ${result}`);
+
+
+
+
+
+
+
+const arrowGreet = ourUtils.default;
+console.log(arrowGreet('Zahid'));
