@@ -163,23 +163,42 @@ import * as ourUtils from "./utils.js"
 
 
 
-const hobbies = ['Cooking', 'Gardening', 'Sports', 'Reading'];
+// const hobbies = ['Cooking', 'Gardening', 'Sports', 'Reading'];
 
-console.log(hobbies[0]);
-console.log(hobbies);
+// console.log(hobbies[0]);
+// console.log(hobbies);
 
-hobbies.push('Working');
-console.log(hobbies)
+// hobbies.push('Working');
+// console.log(hobbies)
 
-const foundIndex = hobbies.findIndex(item => item === 'Sports');
+// const foundIndex = hobbies.findIndex(item => item === 'Sports');
 
-console.log(foundIndex);
+// console.log(foundIndex);
 
-const editedHobbies1 = hobbies.map((item) => item + "!");
-const editedHobbies2 = hobbies.map((item) => ({ HobbyName: item }));
+// const editedHobbies1 = hobbies.map((item) => item + "!");
+// const editedHobbies2 = hobbies.map((item) => ({ HobbyName: item }));
 
 
-console.log(editedHobbies1);
-console.log(editedHobbies2)
+// console.log(editedHobbies1);
+// console.log(editedHobbies2);
+
+
+
+
+
+
+
+
+
+
+function transformToObjects(numList) {
+  console.log(numList);
+  return numList.map((item) => ({ val: item }));
+}
+
+const myNumArray = [1, 2, 3, 4, 5];
+
+const objNumArray = transformToObjects(myNumArray);
+console.log(objNumArray)
 
 
