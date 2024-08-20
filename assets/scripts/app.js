@@ -103,20 +103,40 @@ import * as ourUtils from "./utils.js"
 
 
 
-const arrowGreet = ourUtils.default;
-console.log(arrowGreet('Zahid'));
+// const arrowGreet = ourUtils.default;
+// console.log(arrowGreet('Zahid'));
 
-const anotherArrow1 = () => {
-  return 'arrow 1';
-}
+// const anotherArrow1 = () => {
+//   return 'arrow 1';
+// }
 
-console.log(anotherArrow1());
+// console.log(anotherArrow1());
 
-const anotherArrow2 = number => number * 2;
+// const anotherArrow2 = number => number * 2;
 
-console.log(anotherArrow2(5));
+// console.log(anotherArrow2(5));
 
-const anotherArrow3 = (number, string) => `double: ${number * 2} string: ${string}`;
+// const anotherArrow3 = (number, string) => `double: ${number * 2} string: ${string}`;
 
-console.log(anotherArrow3(10, 'this number is multiplied by 2'));
+// console.log(anotherArrow3(10, 'this number is multiplied by 2'));
+
+
+
+
+
+
+
+
+
+const user = {
+  name: 'Arsalan',
+  age: 38,
+  greet () {
+    console.log(`Hello """${this.name}""" from greet method inside user object`);
+  }
+};
+
+console.log(user);
+console.log(user.name);
+user.greet();
 
