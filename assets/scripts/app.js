@@ -140,3 +140,18 @@ console.log(user);
 console.log(user.name);
 user.greet();
 
+class UserClass {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age
+  }
+  greet () {
+    console.log(`user name """${this.name}""". user age """${this.age}""" `);
+  }
+}
+
+const user1 = new UserClass('Waleed', 28);
+console.log(user1)
+
+user1.greet()
+
