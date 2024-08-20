@@ -16,20 +16,47 @@
 // console.log('default apikey:', ourUtils.default);
 
 
-console.log('Javascript refresher');
 
- let userMessage = "This is a dummy user message!";
 
- console.log('User Message:',userMessage);
 
- const userMessage2 = "This is a dummy user message 2!";
 
-//  userMessage2 = "new value"; //generates error
 
- console.log('User Message:',userMessage2);
+// console.log('Javascript refresher');
 
- var firstName = 'Arsalan';
+//  let userMessage = "This is a dummy user message!";
 
- var firstName = "Noman"; // var can be reintialized which can cause errors 
+//  console.log('User Message:',userMessage);
 
- console.log("First Name:",firstName);
+//  const userMessage2 = "This is a dummy user message 2!";
+
+// //  userMessage2 = "new value"; //generates error
+
+//  console.log('User Message:',userMessage2);
+
+//  var firstName = 'Arsalan';
+
+//  var firstName = "Noman"; // var can be reintialized which can cause errors 
+
+//  console.log("First Name:",firstName);
+
+
+
+
+
+
+
+console.log(10 + 5);
+console.log(10 - 5);
+console.log(10 / 5);
+console.log(10 * 5);
+console.log(10 % 5);
+console.log(10 === 5);
+console.log(10 === 10);
+console.log(10 < 5);
+
+
+console.log("Hello" + " " + "World") //+ is also used for concatenation
+
+if (2 < 5) {
+  console.log('Works');
+}
