@@ -229,4 +229,22 @@ const {firstName, lastName} = {
 console.log(firstName);
 console.log(lastName);
 
+const order = {
+  id: 'adfqer23op0adfj',
+  currency: 'PKR',
+  date: '20-08-2024'
+}
+
+function showOrder(/* order */ {id, currency, date}) {
+  // console.log(`Order Id: ${order.id}`);
+  // console.log(`Currency: ${order.currency}`);
+  // console.log(`Order Date: ${order.date}`);
+
+  console.log(`destructured Order Id: ${id}`);
+  console.log(`destructured Currency: ${currency}`);
+  console.log(`destructured Order Date: ${date}`);
+}
+
+showOrder(order);
+
 
