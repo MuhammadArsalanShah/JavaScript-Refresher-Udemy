@@ -45,18 +45,46 @@
 
 
 
-console.log(10 + 5);
-console.log(10 - 5);
-console.log(10 / 5);
-console.log(10 * 5);
-console.log(10 % 5);
-console.log(10 === 5);
-console.log(10 === 10);
-console.log(10 < 5);
+// console.log(10 + 5);
+// console.log(10 - 5);
+// console.log(10 / 5);
+// console.log(10 * 5);
+// console.log(10 % 5);
+// console.log(10 === 5);
+// console.log(10 === 10);
+// console.log(10 < 5);
 
 
-console.log("Hello" + " " + "World") //+ is also used for concatenation
+// console.log("Hello" + " " + "World") //+ is also used for concatenation
 
-if (2 < 5) {
-  console.log('Works');
+// if (2 < 5) {
+//   console.log('Works');
+// }
+
+
+
+
+
+
+
+function greet(userName='John Doe', message='default dummy message') {
+  // console.log('inside greet function');
+  // console.log(`User name is: "${userName}" and the message is "${message}"`);
+  return `Hey, I'm ${userName} and I must say ${message}`;
 }
+
+greet();
+greet('Arsalan Shah', 'javascript refresher section');
+
+console.log(greet());
+
+const greeting1 = greet('Arsalan Shah', 'javascript refresher section')
+console.log(greeting1);
+
+
+
+
+
+
+
+
