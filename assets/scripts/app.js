@@ -182,6 +182,15 @@ import * as ourUtils from "./utils.js"
 // console.log(editedHobbies1);
 // console.log(editedHobbies2);
 
+// function transformToObjects(numList) {
+//   console.log(numList);
+//   return numList.map((item) => ({ val: item }));
+// }
+
+// const myNumArray = [1, 2, 3, 4, 5];
+
+// const objNumArray = transformToObjects(myNumArray);
+// console.log(objNumArray);
 
 
 
@@ -191,14 +200,33 @@ import * as ourUtils from "./utils.js"
 
 
 
-function transformToObjects(numList) {
-  console.log(numList);
-  return numList.map((item) => ({ val: item }));
+// const userNameData = ['Arsalan', 'Shah'];
+const [fName, lName] = ['Arsalan', 'Shah'];
+
+
+// const fName = userNameData[0];
+// const lName = userNameData[1];
+
+console.log(fName);
+console.log(lName);
+
+const user = {
+  firstName: 'Zahid',
+  lastName: 'Ahmed'
 }
 
-const myNumArray = [1, 2, 3, 4, 5];
+// const firstName = user.firstName;
+// const lastName = user.lastName;
 
-const objNumArray = transformToObjects(myNumArray);
-console.log(objNumArray)
+// console.log(firstName);
+// console.log(lastName);
+
+const {firstName, lastName} = {
+  firstName: 'Safi',
+  lastName: 'Ullah'
+}
+
+console.log(firstName);
+console.log(lastName);
 
 
