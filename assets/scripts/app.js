@@ -67,24 +67,32 @@
 
 
 
-function greet(userName='John Doe', message='default dummy message') {
-  // console.log('inside greet function');
-  // console.log(`User name is: "${userName}" and the message is "${message}"`);
-  return `Hey, I'm ${userName} and I must say ${message}`;
+// function greet(userName='John Doe', message='default dummy message') {
+//   // console.log('inside greet function');
+//   // console.log(`User name is: "${userName}" and the message is "${message}"`);
+//   return `Hey, I'm ${userName} and I must say ${message}`;
+// }
+
+// greet();
+// greet('Arsalan Shah', 'javascript refresher section');
+
+// console.log(greet());
+
+// const greeting1 = greet('Arsalan Shah', 'javascript refresher section')
+// console.log(greeting1);
+
+
+
+
+
+
+
+
+function combine(v1, v2, v3) {
+  const ans = (v1 * v2) / v3;
+  return ans;
 }
 
-greet();
-greet('Arsalan Shah', 'javascript refresher section');
-
-console.log(greet());
-
-const greeting1 = greet('Arsalan Shah', 'javascript refresher section')
-console.log(greeting1);
-
-
-
-
-
-
-
+const result = combine(20, 60, 100);
+console.log(`The result is: ${result}`);
 
