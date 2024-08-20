@@ -128,30 +128,58 @@ import * as ourUtils from "./utils.js"
 
 
 
-const user = {
-  name: 'Arsalan',
-  age: 38,
-  greet () {
-    console.log(`Hello """${this.name}""" from greet method inside user object`);
-  }
-};
+// const user = {
+//   name: 'Arsalan',
+//   age: 38,
+//   greet () {
+//     console.log(`Hello """${this.name}""" from greet method inside user object`);
+//   }
+// };
 
-console.log(user);
-console.log(user.name);
-user.greet();
+// console.log(user);
+// console.log(user.name);
+// user.greet();
 
-class UserClass {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age
-  }
-  greet () {
-    console.log(`user name """${this.name}""". user age """${this.age}""" `);
-  }
-}
+// class UserClass {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age
+//   }
+//   greet () {
+//     console.log(`user name """${this.name}""". user age """${this.age}""" `);
+//   }
+// }
 
-const user1 = new UserClass('Waleed', 28);
-console.log(user1)
+// const user1 = new UserClass('Waleed', 28);
+// console.log(user1)
 
-user1.greet()
+// user1.greet()
+
+
+
+
+
+
+
+
+
+const hobbies = ['Cooking', 'Gardening', 'Sports', 'Reading'];
+
+console.log(hobbies[0]);
+console.log(hobbies);
+
+hobbies.push('Working');
+console.log(hobbies)
+
+const foundIndex = hobbies.findIndex(item => item === 'Sports');
+
+console.log(foundIndex);
+
+const editedHobbies1 = hobbies.map((item) => item + "!");
+const editedHobbies2 = hobbies.map((item) => ({ HobbyName: item }));
+
+
+console.log(editedHobbies1);
+console.log(editedHobbies2)
+
 
