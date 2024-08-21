@@ -334,21 +334,19 @@ import * as ourUtils from "./utils.js"
 
 
 
-function init() {
+// function init() {
 
-  console.log("hello from init function")
-  
-  function innerGreet() {
-    console.log('Hi from inner greet function');
-  }
+//   console.log("hello from init function")
 
-  innerGreet();
-}
+//   function innerGreet() {
+//     console.log('Hi from inner greet function');
+//   }
 
-init()
+//   innerGreet();
+// }
 
-
+// init()
 
 
 
-
+/*** JavaScript Starter has been completed ***/
